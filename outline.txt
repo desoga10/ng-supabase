@@ -1,0 +1,12 @@
+Angular and Supabase
+
++ Create a New Angular Project
++ Edit Angular.json to accept standalone component
++ Generate Login, Register and Navbar component
++ Use ChatGPT to generate Navbar design, Register and login design page
++ Delete app module file
++ Configure Route file to be Lazy Loaded
++ Configure main.ts file to accept lazy loaded route as well as Standalone component
+
+======================================================================================================
+
