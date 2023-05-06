@@ -1,0 +1,43 @@
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 20px;
+}
+
+/* Style for the boxes */
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px #ccc;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Style for the box colors */
+.box.red {
+  background-color: #ff6f69;
+}
+
+.box.green {
+  background-color: #77dd77;
+}
+
+.box.blue {
+  background-color: #aec6cf;
+}
+
+/* Style for the headings */
+h1 {
+  text-align: center;
+  margin: 20px;
+}
