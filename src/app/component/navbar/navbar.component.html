@@ -1,6 +1,6 @@
 <div class="navbar">
   <h1>My Website</h1>
-  <a [routerLink]="['home']">Sign Out</a>
+  <a (click)="logOut()" style="cursor: pointer">Sign Out</a>
   <a [routerLink]="['login']">Login</a>
   <a [routerLink]="['register']">Register</a>
 

@@ -47,8 +47,11 @@ export class AuthService {
     return this.supabase_client.auth.signOut();
   }
 
-  //get user status
-  getStatus() {
-    return this.supabase_client.auth.getSession();
-  }
+  // //get user status
+  // getStatus() {
+  //   return this.supabase_client.auth.getSession().then((res) => {
+  //     console.log('res');
+  //     return res;
+  //   });
+  // }
 }
