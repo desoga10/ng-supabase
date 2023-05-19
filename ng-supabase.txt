@@ -1,24 +1,23 @@
-Angular and Supabase (NGR198-19664)
+Angular and Supabase (NGR198-19664) Angular 16 Authentication using Supabase
  
-+ Create a New Angular Project
-+ Edit Angular.json to accept standalone component
-+ Generate Login, Register and Navbar component
-+ Use ChatGPT to generate Navbar design, Register and login design page
-+ Delete app module file
++ Create a New Angular Project as Standalone
++ Generate Login, Register, Home(Landing Page), dashboard, and Navbar component
++ Use ChatGPT to generate Navbar design, landing(Home) page, dashboard, Register, and login design page
 + Configure Route file to be Lazy Loaded
 + Configure main.ts file to accept lazy loaded route as well as Standalone component
 
 ======================================================================================================
 
 + Generate a service component
-+ Integrate the Angular Httpclientmodule in the main.ts file
++ Integrate the Angular provideHttpClient in the main.ts file
 + Create new supabase project
 + install supabase (npm install @supabase/supabase-js)
-+ Implement UI design for login, register and landing page
 + Add validation for login and register forms
 + Copy the API KEY as well as Database URL From Supabase (https://ezfnyllgsljtnchycmkh.supabase.co)(eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImV6Zm55bGxnc2xqdG5jaHljbWtoIiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODMxNTU1MDQsImV4cCI6MTk5ODczMTUwNH0.Z85MX93aoefYWD8e3Pk1M2QJfktQlTX34EKe82JsqpY)
 + Generate and configure an environment folder using ng g environments in angular
-+ 
++ Create the signup and signin functions for the Angular Auth Service
++ Consume rest api to login in register and login component
++ Outro
 
 
 
